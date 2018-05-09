@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c1760fe5203fa4a0e4e127bf1656871a",
+    "packages": [
+        {
+            "name": "lookyman/composer-plugin-test",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lookyman/composer-plugin-test.git",
+                "reference": "480738dd3e046bb8414db595e45cce60536f55f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lookyman/composer-plugin-test/zipball/480738dd3e046bb8414db595e45cce60536f55f4",
+                "reference": "480738dd3e046bb8414db595e45cce60536f55f4",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.1",
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "composer/composer": "^1.6"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Lookyman\\Composer\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Lookyman\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Lukáš Unger",
+                    "email": "looky.msc@gmail.com"
+                }
+            ],
+            "time": "2018-05-09T17:46:14+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "lookyman/composer-plugin-test": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
